@@ -27,6 +27,14 @@ p {
 .LichtBlick-logo {
   position: relative;
   top: 30px;
+  margin-left: 35px;
+  width: 5rem;
+  height: 5rem;
+}
+
+.hero-image {
+  height: 319px;
+  max-width: 100%;
 }
 
 li {
