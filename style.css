@@ -8,12 +8,25 @@ html {
 
 body {
   margin: 0;
+  max-width: 100%;
 }
 
 h1,
 h2,
 h3 {
   font-family: Lato;
+}
+p {
+  font-weight: 400;
+}
+
+.paragraph-centered {
+  text-align: center;
+}
+
+.LichtBlick-logo {
+  position: relative;
+  top: 30px;
 }
 
 li {
@@ -29,4 +42,20 @@ li {
 .header-nav > * {
   flex-shrink: 1;
   flex-grow: 1;
+}
+
+.Stromheizung {
+  background-color: violet;
+  padding: 3.5rem 1rem;
+  position: relative;
+}
+
+.wärmestrom {
+  all: unset;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  font-weight: 700;
+  position: absolute;
+  left: 25%;
 }
