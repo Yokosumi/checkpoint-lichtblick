@@ -59,3 +59,28 @@ li {
   position: absolute;
   left: 25%;
 }
+
+.e-mobilität {
+  padding: 3.5 1rem;
+  margin-left: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  border-radius: 2% 2% 0 0;
+}
+
+.gray-border {
+  border: 3px solid gray;
+  border-radius: 2%;
+  width: 75vw;
+  height: 75vh;
+  position: absolute;
+  left: 10%;
+}
+
+.teaser_1 {
+  position: relative;
+  right: 0.5rem;
+  z-index: -1;
+}
